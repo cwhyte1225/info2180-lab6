@@ -41,6 +41,6 @@ $(document).ready(function){
          }).done(function(sol){
              $("#response").html(sol);
          }).fail(function(eror){
-             $("#result").htm;(error);
+             $("#response").htm;(error);
          });
 };
